@@ -62,3 +62,293 @@ body {
   justify-content: center;
   display: flex;
 }
+
+.sub-heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 40px;
+}
+
+.first-container::after {
+  content: '';
+  width: 48px;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  background: #36b37e;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #3a4a42;
+  font-size: larger;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: start;
+}
+
+.Box-holder {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.Box-size {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 11px 11px 0 0;
+}
+
+.content {
+  border: 1px solid #ebf0ee;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 11px;
+  margin-top: -10px;
+  background: white;
+}
+
+.header2 {
+  text-align: center;
+  color: #3a4a42;
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.button-text {
+  outline: none;
+  border: none;
+  background: #36b37f;
+  color: #ebf0ee;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  font-size: medium;
+  margin-bottom: 36px;
+  transition-property: all;
+}
+
+.button-text:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition-duration: 1s;
+}
+
+.button-text:focus {
+  background: #008552;
+}
+
+.text-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid: 1.5rem;
+}
+
+.text {
+  align-items: center;
+  display: flex;
+}
+
+.button-resume {
+  outline: none;
+  border: none;
+  background: #36b37f;
+  color: #ebf0ee;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  font-size: medium;
+  transition-property: all;
+}
+
+.plane {
+  display: flex;
+  top: -60px;
+  position: relative;
+}
+
+.desktop-plane {
+  display: none;
+}
+
+.desktop-square {
+  display: none;
+}
+
+.plane-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h3 {
+  text-align: center;
+  color: #172b4d;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
+
+.square {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.button2:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.button2:focus {
+  background: #008552;
+}
+
+.text-aline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section6 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.quote {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Language {
+  display: flex;
+  justify-content: center;
+  color: #344563;
+  font-size: xx-large;
+  margin-top: -28px;
+  margin-bottom: 25px;
+}
+
+.media {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  list-style-type: none;
+  color: #36b37f;
+  flex-wrap: wrap;
+}
+
+.media li {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+.content ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  gap: 0.5rem;
+  padding: 20px 0;
+}
+
+.content ul li {
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.holder-text {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 0 25px 1px 25px;
+}
+
+.holder-text1 {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 23px;
+}
+
+.holder-text1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.about-p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 52px;
+  text-align: center;
+  margin: 20px 15px;
+  color: #172b4d;
+}
